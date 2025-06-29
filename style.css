@@ -120,3 +120,33 @@ body {
     flex-direction: column;
     gap: 20px
 }
+
+.contact {
+    background-color: rgb(6, 147, 179);
+    color: white;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 0px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-content h1, .contact-content h2 {
+    font-weight: normal;
+}
+
+.contact-content h1 {
+    text-align: center;
+}
+
+.contact #sea {
+    width: 100vw;
+    height: auto;
+}
