@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 700px;
+}
+
+.intro img {
+    max-width: 80vw;
+    height: auto;
+}
+
+.intro {
+    position: relative;
+    text-align: center;
+    color: white;
+    /* max-height: 520px;
+    max-width: 380px; */
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro h1 {
+    position: absolute;
+    bottom: 0px;
+}
+
+.header div {
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+a img{
+    max-width: 30px;
+    height: 30px;
+}
+
+.background {
+    background-color: rgb(6, 147, 179);
+    height: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 100%);;
+}
+
+.content {
+    position: absolute;
+    top: 50px;
+}
