@@ -42,7 +42,7 @@ body {
     justify-content: center;
     gap: 12px;
 }
-a img{
+.logo{
     max-width: 30px;
     height: 30px;
 }
@@ -56,4 +56,67 @@ a img{
 .content {
     position: absolute;
     top: 50px;
+}
+
+.work h1 {
+    text-align: center;
+}
+
+.card-box {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box h2 {
+    color: white;
+    font-size: 36px;
+}
+
+.card-container {
+    padding: 15px;
+}
+
+.project-description div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-description {
+    background-color: #ede4e4;
+    padding: 8px;
+    padding-top: 0;
+    padding-bottom: 12px;
+}
+
+#color1 {
+    background-color: #5566d4;
+}
+
+#color2 {
+    background-color: #cc5e5e;
+}
+
+#color3 {
+    background-color: #a551e0;
+}
+
+#color4 {
+    background-color: #4ea64e;
+}
+
+#color5 {
+    background-color: #53c2c2;
+}
+
+#color6 {
+    background-color: #db5682;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
 }
