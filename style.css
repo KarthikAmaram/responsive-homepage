@@ -50,7 +50,7 @@ body {
 .background {
     background-color: rgb(6, 147, 179);
     height: 50%;
-    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 100%);;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 100%);
 }
 
 .content {
@@ -149,4 +149,66 @@ body {
 .contact #sea {
     width: 100vw;
     height: auto;
+}
+
+@media (min-width: 500px) {
+
+    .intro img {
+        max-height: 30vh;
+        width: auto;
+    }
+
+    .content {
+        display: flex;
+        padding: 20px;
+        top: 25%;
+        gap: 8px;
+    }
+    
+    .background {
+        clip-path: polygon(0 0, 100% 0, 100% 55%, 0 100%);
+        height: 50vh;
+    }
+
+    .description {
+        z-index: 1;
+        position: absolute;
+        background-color: #d5dbe3;
+        left: 100%;
+        width: 60vw;
+    }
+
+    .description h2 {
+        font-size: 36px;
+        
+    }
+
+    .description p {
+        font-size: 32px;
+        padding-left: 1rem;
+        text-align: left;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .intro {
+        bottom: 10rem;
+        left: 4rem;
+        z-index: 2;
+    }
+
+    #first {
+        width: 55vw;
+        padding-left: 3.25rem;
+    }
+
+    #second {
+        padding-top: 1rem;
+    }
+
+    /* .intro h1 {
+        position: relative;
+    } */
 }
